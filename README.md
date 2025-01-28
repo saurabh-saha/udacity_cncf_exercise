@@ -1,10 +1,3 @@
-Run FLask Uisng following commands:
-
-export FLASK_APP=myapp
-export FLASK_ENV=development
-flask run
-
-
 # Flask Web Application
 
 This is a simple Flask web application that includes endpoints for basic functionality like checking status, viewing metrics, and a basic hello world route. It also integrates logging to capture information on each request.
@@ -83,8 +76,7 @@ This is a simple Flask web application that includes endpoints for basic functio
      ```json
      {
        "data": {
-         "UserCount": 140,
-         "UserCountActive": 23
+         "RequestCount": 1,
        }
      }
      ```
